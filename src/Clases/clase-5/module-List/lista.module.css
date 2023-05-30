@@ -1,0 +1,17 @@
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* Si el item se encuentra dentro de una clase global compact-theme haz que todos los paddings y separaciones se reduzcan a la mitad */
+:global(.compact-theme) ul {
+    gap: 8px;
+}

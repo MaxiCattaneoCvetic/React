@@ -1,0 +1,10 @@
+li{
+    border-radius: 3rem;
+    padding: 16px;
+    border: 2px solid white;
+}
+
+/* Si el item se encuentra dentro de una clase global compact-theme haz que todos los paddings y separaciones se reduzcan a la mitad */
+:global(.compact-theme) li {
+    padding: 8px;
+}

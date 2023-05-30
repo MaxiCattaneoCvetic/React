@@ -1,0 +1,9 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 4rem;
+    appearance: none;
+}

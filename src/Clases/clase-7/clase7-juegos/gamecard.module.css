@@ -1,0 +1,23 @@
+
+.card{
+    margin: 0px;
+    display:flex;
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-radius: 44px 38px;
+    background: black;
+}
+button{
+    margin: 0.5rem;
+}
+.card img{
+    width: 91%;
+}
+
+h1{
+    font-size: 2rem;
+    width: auto;
+}
